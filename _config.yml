@@ -1,2 +1,3 @@
-theme: jekyll-theme-minimal
 repository: data-driven-chinese/data-driven-chinese.github.io
+title: Data Driven Chinese Blog
+theme: jekyll-theme-minimal
