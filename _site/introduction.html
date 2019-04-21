@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Introduction | Data Driven Chinese Blog</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="Introduction" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The last time I spoke to my uncle was in 2017. My mom was calling him to wish him a happy Lunar New Year, and I spoke a few words at her behest." />
+<meta property="og:description" content="The last time I spoke to my uncle was in 2017. My mom was calling him to wish him a happy Lunar New Year, and I spoke a few words at her behest." />
+<link rel="canonical" href="http://localhost:4000/introduction" />
+<meta property="og:url" content="http://localhost:4000/introduction" />
+<meta property="og:site_name" content="Data Driven Chinese Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-04-14T00:00:00-07:00" />
+<script type="application/ld+json">
+{"headline":"Introduction","dateModified":"2019-04-14T00:00:00-07:00","datePublished":"2019-04-14T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/introduction"},"description":"The last time I spoke to my uncle was in 2017. My mom was calling him to wish him a happy Lunar New Year, and I spoke a few words at her behest.","@type":"BlogPosting","url":"http://localhost:4000/introduction","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=bc3fb9c9cadd881836c4e7af5a28a914cbca2321">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- <h1>Data Driven Chinese Blog</h1> -->
+
+      <small>14 April 2019</small>
+<h1>Introduction</h1>
+
+<p>The last time I spoke to my uncle was in 2017. My mom was calling him
+to wish him a happy Lunar New Year, and I spoke a few words at her behest.</p>
+
+<p>“Your Chinese has gotten worse!”, he said immediately after hearing my broken, heavily-accented Mandarin.</p>
+
+<p>My uncle was right, but also, somewhat inaccurate. My Chinese hadn’t just gotten worse - it was never good to begin with.
+But before I could respond, he was already onto the next topic.</p>
+
+<p>“Are you married yet?”</p>
+
+<p>As I was unable to offer much more than a laugh and a “还没有” (not yet), the conversation
+ended quickly.</p>
+
+<p>While I haven’t spoken to my uncle in over two years, I have been trying
+to improve my Chinese during that time. I make an effort to speak in Chinese whenever I speak to my
+parents, and I found a “language partner” in China who helps me with Chinese while I help with English.</p>
+
+<p>But most of all, I’ve been focusing on getting better at reading Chinese. There are <em>many</em> difficulties
+associated with written Chinese - it is said that to read fluently, a person must recognize about 3,000 characters,
+many of which are similar to a frustrating degree:</p>
+
+<div>
+    <div class="diff">
+        <figure>
+            <img src="assets/img/ti.png" />
+            <figcaption>tǐ: body; form; style; system</figcaption>
+        </figure>
+        <figure>
+            <img src="assets/img/xiu.png" />
+            <figcaption>xiū: to rest; to stop doing sth for a period of time</figcaption>
+        </figure>
+    </div>
+</div>
+
+<p>For one, I can read in my head, without subjecting anyone to my 
+accent. Various technologies have also made looking up unfamiliar words very easy (more on this in a bit).
+Finally, I find some satisfaction from the pure act of memorization. In high school,
+I memorized where prominent basketball players attended high school. Applying that
+penchant towards recognizing Chinese characters seems a bit more useful.</p>
+
+<p>Most of all, while some people may find the idea of memorizing three thousand characters daunting, 
+I think of it as an opporunity to collect some interesting data, and then blog about it.</p>
+
+<h3 id="the-web-app">The Web App</h3>
+
+<p>My current goal is to read at HSK 5 proficiency, which means being able to <a href="https://www.chinaeducenter.com/en/hsk/hsklevel5.php">read Chinese newspapers and magazines</a>.</p>
+
+<p>To help me reach this goal, I’m reading articles from the <a href="https://cn.nytimes.com/">Chinese version of The New York Times</a>, which contains English articles 
+alongside a Chinese translation:</p>
+
+<p><a target="_blank" href="https://cn.nytimes.com/education/20190417/stop-asking-kids-what-they-want-to-be-when-they-grow-up/dual/">
+<img src="/assets/img/dual.png" />
+</a></p>
+
+<p>I also wrote a small web app which takes such an article and saves its content. This allows me
+to alter the reading experience to my liking. I can focus on the Chinese, hiding the English translation
+until I really need it:</p>
+
+<p><img src="/assets/img/english.gif" /></p>
+
+<p>Moreover, while reading an article, I encounter many words I do not recognize. To make the lookup process easier, I load up a 
+modified version of the awesome <a href="https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde?hl=en">Zhongwen Chrome Extension</a>. In the original extension, hovering over any Chinese word shows a pop-up with its English definition 
+and pinyin. In my slightly modified version, I need to click on a word in order for the pop-up to show.
+Clicking is thus an explicit action indicating that I do not recognize a word, which I acknowledge by 
+saving the clicked word to a database. The web app then augments the marked word with metadata such as its HSK classification and
+frequency.</p>
+
+<p><img src="/assets/img/definition.gif" /></p>
+
+<p>I also modified the extension to mark and save individual characters that I do not know as well.</p>
+
+<p>So far, 15 or so articles in, the most commonly marked words and characters have the distinct flavor of news article lexicon:</p>
+
+<p><b>Top 5 Marked Words</b></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>entry</th>
+      <th>pinyin</th>
+      <th>count</th>
+      <th>definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>刑事</td>
+      <td>xíng shì</td>
+      <td>6</td>
+      <td>criminal; penal;</td>
+    </tr>
+    <tr>
+      <td>逮捕</td>
+      <td>dài bǔ</td>
+      <td>6</td>
+      <td>to arrest; to apprehend; an arrest;</td>
+    </tr>
+    <tr>
+      <td>试图</td>
+      <td>shì tú</td>
+      <td>6</td>
+      <td>to attempt; to try;</td>
+    </tr>
+    <tr>
+      <td>导致</td>
+      <td>dǎo zhì</td>
+      <td>6</td>
+      <td>to lead to; to create; to cause; to bring about;</td>
+    </tr>
+    <tr>
+      <td>庇护</td>
+      <td>bì hù</td>
+      <td>5</td>
+      <td>asylum; shelter; to shield; to put under protection; to take under one’s wing;</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b>Top 5 Marked Characters</b></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>entry</th>
+      <th>pinyin</th>
+      <th>count</th>
+      <th>definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>致</td>
+      <td>zhì</td>
+      <td>13</td>
+      <td>send, deliver, present; cause</td>
+    </tr>
+    <tr>
+      <td>审</td>
+      <td>shěn</td>
+      <td>12</td>
+      <td>examine, investigate; judge</td>
+    </tr>
+    <tr>
+      <td>营</td>
+      <td>yíng</td>
+      <td>12</td>
+      <td>encampment, barracks; manage</td>
+    </tr>
+    <tr>
+      <td>积</td>
+      <td>jī</td>
+      <td>11</td>
+      <td>accumulate, store up, amass</td>
+    </tr>
+    <tr>
+      <td>执</td>
+      <td>zhí</td>
+      <td>11</td>
+      <td>hold in hand; keep; carry out</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="hsk-data">HSK Data</h3>
+
+<p>There are a total of 6 HSK levels, ranging from learners who 
+“can understand and use some simple Chinese characters and sentences” to those
+“who are capable of smoothly expressing themselves in written or oral form.” Moving
+from one to level to the next requires doubling the amount of recognized words from 
+the previous level. This is somewhat apparent in the unique words I’ve encountered so far, 
+classified by their HSK level. Thus far, I’ve encountered about 23.5% of level 6 words,
+47% of level 5 words, and 59% of level 4 words.</p>
+
+<p><img class="hsk" src="assets/img/hskcharactersseenbylevel.png" /></p>
+
+<p>(TODO)</p>
+
+<p>Using the data I collected about the unfamiliar words which I marked, I can
+detect a slow by steady increase in the words I recgonize by HSK level:
+<img class="hsk" src="assets/img/rolling_avg.png" /></p>
+
+<p>The chart above is gold for me: I’m always more motivated to do work on something when I can see visual signs of improvement.</p>
+
+<h3 id="future-topics">Future Topics</h3>
+
+<p>I built this web app to track my own progress towards reading at the HSK level 5, with an end goal
+is to be able to read Chinese literature without much difficulty.</p>
+
+<p>The Chinese language is a vast, at times frustrating, but always fascinating language. As such, there are
+other aspects within the language which I wish to explore, such as its grammar, tones, relationships
+betweeen characters and words, and “成语” (idioms typically consisting of 4 characters).</p>
+
+<p>Posts in this blog will detail my path to my goal, along with the types of digressions I describe above.
+Each post will be aided by the data that I collect about the characters and words that I encounter.</p>
+
+<p>I hope you stay tuned!</p>
+
+
+
+
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>
