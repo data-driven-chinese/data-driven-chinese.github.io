@@ -17,7 +17,7 @@ As I was unable to offer much more than a laugh and a "还没有" (not yet), the
 ended quickly.
 
 While I haven't spoken to my uncle in over two years, I have been trying
-to improve my Chinese during that time. I make an effort to speak in Chinese whenever I speak to my
+to improve my Chinese during that time. I make an effort to use Chinese when speaking with my
 parents, and I found a "language partner" in China who helps me with Chinese while I help with English.
 
 But most of all, I've been focusing on getting better at reading Chinese. There are *many* difficulties
@@ -109,8 +109,6 @@ classified by their HSK level. Thus far, I've encountered about 23.5% of level 6
 
 <img class="hsk" src="assets/img/hskcharactersseenbylevel.png">
 
-(TODO)
-
 Using the data I collected about the unfamiliar words which I marked, I can
 detect a slow by steady increase in the words I recgonize by HSK level:
 <img class="hsk" src="assets/img/rolling_avg.png">
@@ -129,4 +127,4 @@ betweeen characters and words, and "成语" (idioms typically consisting of 4 ch
 Posts in this blog will detail my path to my goal, along with the types of digressions I describe above.
 Each post will be aided by the data that I collect about the characters and words that I encounter.
 
-I hope you stay tuned! 
+Stay tuned!
