@@ -110,7 +110,7 @@ classified by their HSK level. Thus far, I've encountered about 23.5% of level 6
 <img class="hsk" src="assets/img/hskcharactersseenbylevel.png">
 
 Using the data I collected about the unfamiliar words which I marked, I can
-detect a slow by steady increase in the words I recgonize by HSK level:
+detect a slow but steady increase in the words I recgonize by HSK level:
 <img class="hsk" src="assets/img/rolling_avg.png">
 
 The chart above is gold for me: I'm always more motivated to do work on something when I can see visual signs of improvement.
